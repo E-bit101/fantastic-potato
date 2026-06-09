@@ -15,7 +15,7 @@ dnf5 -y copr enable lionheartp/Hyprland
 dnf5 install -y fastfetch pipewire wireplumber gvfs
 
 dnf5 install -y fastfetch alacritty thunar
-dnf5 install -y thunar-volman thunar-shares-plugin thunar-archive-plugin
+dnf5 install -y thunar-volman thunar-archive-plugin
 
 dnf5 install -y niri quickshell sddm hyprland 
 
