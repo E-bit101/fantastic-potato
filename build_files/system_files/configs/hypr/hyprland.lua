@@ -38,7 +38,7 @@ hl.monitor({
 -- Set programs that you use
 local terminal    = "alacritty"
 local fileManager = "thunar"
-local menu        = "hyprlauncher"
+local menu        = ""
 
 
 -------------------
