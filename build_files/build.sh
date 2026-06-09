@@ -26,6 +26,4 @@ dnf5 install -y niri quickshell sddm hyprland
 dnf5 -y copr disable yalter/niri 
 dnf5 -y copr disable lionheartp/Hyprland
 
-#### Example for enabling a System Unit File
-
-systemctl enable podman.socket
+systemctl enable config-manager.service
