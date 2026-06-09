@@ -8,7 +8,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # Move files
-cp -r system_files/* /
+cp -r /ctx/system_files/. /
 
 # Enable COPRs
 dnf5 -y copr enable yalter/niri 
