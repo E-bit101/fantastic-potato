@@ -173,7 +173,7 @@ layout {
         //
         // The focus ring only draws around the active window, so the only place
         // where you can see its inactive-color is on other monitors.
-        // inactive-color "rgba(595959aa)" 
+        inactive-color "#595959aa" 
 
         // You can also use gradients. They take precedence over solid colors.
         // Gradients are rendered the same as CSS linear-gradient(angle, from, to).
@@ -182,13 +182,13 @@ layout {
         // You can use any CSS linear-gradient tool on the web to set these up.
         // Changing the color space is also supported, check the wiki for more info.
         //
-        active-gradient from="rgba(33ccffee)" to="rgba(00ff99ee)" angle=45
+        active-gradient from="#33ccffee" to="#00ff99ee" angle=45
 
         // You can also color the gradient relative to the entire view
         // of the workspace, rather than relative to just the window itself.
         // To do that, set relative-to="workspace-view".
         //
-        inactive-gradient from="rgba(595959aa)" to="rgba(595959aa)" angle=45 relative-to="workspace-view"
+        // inactive-gradient from="#595959aa" to="#595959aa" angle=45 relative-to="workspace-view"
     }
 
     // You can also add a border. It's similar to the focus ring, but always visible.
