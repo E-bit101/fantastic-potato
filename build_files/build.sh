@@ -7,6 +7,9 @@ set -ouex pipefail
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
+# Move files
+cp -r system_files/* /
+
 # Enable COPRs
 dnf5 -y copr enable yalter/niri 
 dnf5 -y copr enable lionheartp/Hyprland
