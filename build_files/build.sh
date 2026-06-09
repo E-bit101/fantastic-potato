@@ -12,14 +12,12 @@ dnf5 -y copr enable yalter/niri
 dnf5 -y copr enable lionheartp/Hyprland
 
 ### Install packages
-dnf5 install -y \
+dnf5 install -y fastfetch pipewire wireplumber gvfs
 
-    fastfetch pipewire wireplumber gvfs \
+dnf5 install -y fastfetch alacritty thunar
+dnf5 install -y thunar-volman thunar-shares-plugin thunar-archive-plugin
 
-    fastfetch alacritty thunar \
-    thunar-volman thunar-shares-plugin thunar-archive-plugin \
-
-    niri quickshell sddm hyprland 
+dnf5 install -y niri quickshell sddm hyprland 
 
 # Disable COPRs so they don't end up enabled on the final image
 dnf5 -y copr disable yalter/niri 
