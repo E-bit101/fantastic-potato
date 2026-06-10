@@ -20,7 +20,7 @@ dnf5 install -y pipewire wireplumber gvfs
 dnf5 install -y qt6-qtsvg qt6-qtvirtualkeyboard qt6-qtmultimedia qt6-qtimageformats
 
 # Apps
-dnf5 install -y fastfetch alacritty nemo
+dnf5 install -y fastfetch alacritty nemo steam
 
 # System utilities
 dnf5 install -y niri quickshell sddm hyprland swaybg

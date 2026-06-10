@@ -44,5 +44,5 @@ for user in pwd.getpwall():
     with open("/etc/sddm.conf.d/theme.conf", "w") as f:
         f.write(
 """[Theme]
-Current=sddm-astronaut-theme"""
+Current=astronaut-theme"""
         )
