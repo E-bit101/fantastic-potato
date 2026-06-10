@@ -52,6 +52,7 @@ local menu        = ""
 --
 hl.on("hyprland.start", function () 
     hl.exec_cmd("qs")
+    hl.exec_cmd("swaybg -c #000000")
 end)
 
 
