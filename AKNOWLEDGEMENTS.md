@@ -1,2 +1,2 @@
 https://github.com/alacritty/alacritty-theme - Default alacritty theme
-https://github.com/uiriansan/SilentSDDM - SDDM theme (temporary)
+https://github.com/Keyitdev/sddm-astronaut-theme/ - Default sddm theme

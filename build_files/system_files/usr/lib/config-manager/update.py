@@ -41,10 +41,8 @@ for user in pwd.getpwall():
                 user.pw_gid
             )
 
-    with open("/etc/sddm.conf", "w") as f:
-        f.write("""[General]
-InputMethod=qtvirtualkeyboard
-GreeterEnvironment=QML2_IMPORT_PATH=/usr/share/sddm/themes/silent/components/,QT_IM_MODULE=qtvirtualkeyboard
-
-[Theme]
-Current=silent""")
+    with open("/etc/sddm.conf.d/theme.conf", "w") as f:
+        f.write(
+"""[Theme]
+Current=sddm-astronaut-theme"""
+        )
