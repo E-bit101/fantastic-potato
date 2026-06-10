@@ -23,7 +23,7 @@ dnf5 install -y qt6-qtsvg qt6-qtvirtualkeyboard qt6-qtmultimedia qt6-qtimageform
 dnf5 install -y fastfetch alacritty nemo steam
 
 # System utilities
-dnf5 install -y niri quickshell sddm hyprland swaybg
+dnf5 install -y niri quickshell sddm hyprland hyprpaper hyprpolkitagent
 
 # Disable COPRs so they don't end up enabled on the final image
 dnf5 -y copr disable yalter/niri 
