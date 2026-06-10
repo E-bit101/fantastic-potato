@@ -16,14 +16,15 @@ dnf5 -y copr enable lionheartp/Hyprland
 
 ### Install packages
 # Core
-dnf5 install -y pipewire wireplumber gvfs 
+dnf5 install -y pipewire wireplumber gvfs xdg-desktop-portal-gtk xdg-desktop-portal-gnome gnome-keyring
 dnf5 install -y qt6-qtsvg qt6-qtvirtualkeyboard qt6-qtmultimedia qt6-qtimageformats
 
 # Apps
 dnf5 install -y fastfetch alacritty nemo steam
 
 # System utilities
-dnf5 install -y niri quickshell sddm hyprland hyprpaper hyprpolkitagent
+dnf5 install -y niri quickshell sddm hyprland hyprpaper hyprpolkitagent hyprland-guiutils 
+
 
 # Disable COPRs so they don't end up enabled on the final image
 dnf5 -y copr disable yalter/niri 

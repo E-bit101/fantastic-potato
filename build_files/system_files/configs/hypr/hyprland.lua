@@ -52,7 +52,7 @@ local menu        = ""
 --
 hl.on("hyprland.start", function () 
     hl.exec_cmd("qs")
-    hl.exec_cmd("swaybg -c #000000")
+    hl.exec_cmd("hyprpaper")
 end)
 
 
@@ -92,8 +92,8 @@ hl.env("HYPRCURSOR_SIZE", "24")
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
 hl.config({
     general = {
-        gaps_in  = 5,
-        gaps_out = 20,
+        gaps_in  = 8,
+        gaps_out = 8,
 
         border_size = 2,
 
@@ -128,7 +128,7 @@ hl.config({
 
         blur = {
             enabled   = true,
-            size      = 3,
+            size      = 5,
             passes    = 1,
             vibrancy  = 0.1696,
         },
@@ -212,7 +212,7 @@ hl.config({
 
 hl.config({
     misc = {
-        force_default_wallpaper = 0,    -- Set to 0 or 1 to disable the anime mascot wallpapers
+        force_default_wallpaper = 1,    -- Set to 0 or 1 to disable the anime mascot wallpapers
         disable_hyprland_logo   = true, -- If true disables the random hyprland logo / anime girl background. :(
     },
 })
